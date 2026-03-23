@@ -1,0 +1,113 @@
+.contact__inner {
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 64px;
+  align-items: start;
+}
+
+.contact__content h2 {
+  margin-bottom: 16px;
+}
+
+.contact__content > p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.contact__methods {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact__method {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.contact__method:hover {
+  background: var(--color-bg-alt);
+  border-color: var(--color-primary-light);
+}
+
+.contact__method-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+  color: var(--color-primary-light);
+  border-radius: 10px;
+}
+
+.contact__method-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-light);
+  margin-bottom: 2px;
+}
+
+.contact__method-value {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.contact__cta-card {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  border-radius: 20px;
+  padding: 48px 36px;
+  color: white;
+}
+
+.contact__cta-card h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.contact__cta-card > p {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.contact__cta-card .btn-primary {
+  background: white;
+  color: var(--color-primary);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.contact__cta-card .btn-primary:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  color: var(--color-primary);
+}
+
+.contact__note {
+  margin-top: 16px;
+  font-size: 0.82rem !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}
