@@ -5,7 +5,7 @@ export default function Results() {
     <section className="section section-dark" id="results">
       <div className="container">
         <div className="section-header">
-          <span className="section-label" style={{ color: '#60a5fa' }}>Proven Results</span>
+          <span className="section-label" style={{ color: '#a78bfa' }}>Proven Results</span>
           <h2>We Measure Success in Production, Not Presentations</h2>
           <p>
             Real outcomes from real engagements. We bring integrity and commercial
