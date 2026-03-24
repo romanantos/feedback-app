@@ -9,6 +9,7 @@ const services = [
         <path d="M2 12l10 5 10-5"/>
       </svg>
     ),
+    colorClass: 'icon--amber',
     title: 'AI-Native Transformation Advisory',
     description: 'Redesign operations to embed AI into decision-making and delivery. We don\'t layer AI on top of broken processes — we redesign workflows from the ground up.',
     bullets: ['Operating model redesign', 'AI readiness assessment', 'Roadmap to production AI'],
@@ -20,6 +21,7 @@ const services = [
         <path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/>
       </svg>
     ),
+    colorClass: 'icon--emerald',
     title: 'Agentic AI Design & Build',
     description: 'Deploy autonomous AI agents that actually work in production. From procurement automation to back-office workflows — built, tested, and shipped.',
     bullets: ['Procurement automation agents', 'Negotiation intelligence', 'Back-office workflow automation'],
@@ -31,6 +33,7 @@ const services = [
         <line x1="7" y1="7" x2="7.01" y2="7"/>
       </svg>
     ),
+    colorClass: 'icon--orange',
     title: 'AI-Augmented Procurement',
     description: '21 years of enterprise procurement expertise — now amplified by AI. We bring deep domain knowledge from global supply chains combined with cutting-edge AI technology.',
     bullets: ['Spend analytics & optimization', 'Supplier negotiation intelligence', 'Procurement process automation'],
@@ -52,7 +55,7 @@ export default function Services() {
         <div className="services__grid">
           {services.map((service, i) => (
             <div className="service-card" key={i}>
-              <div className="service-card__icon">{service.icon}</div>
+              <div className={`service-card__icon ${service.colorClass}`}>{service.icon}</div>
               <h3 className="service-card__title">{service.title}</h3>
               <p className="service-card__desc">{service.description}</p>
               <ul className="service-card__list">

@@ -36,21 +36,16 @@
   color: var(--color-primary-dark);
 }
 
-.navbar__logo-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
-  color: white;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: 800;
+.navbar__logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: contain;
 }
 
 .navbar__logo-text {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  font-size: 1.15rem;
 }
 
 .navbar__links {

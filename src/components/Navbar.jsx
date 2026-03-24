@@ -21,8 +21,8 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="container navbar__inner">
         <a href="#" className="navbar__logo" onClick={(e) => handleClick(e, 'hero')}>
-          <span className="navbar__logo-icon">R</span>
-          <span className="navbar__logo-text">RAIM</span>
+          <img src="/logo.svg" alt="RAIM" className="navbar__logo-img" />
+          <span className="navbar__logo-text">RAIM Consulting Group</span>
         </a>
         <button
           className={`navbar__toggle ${menuOpen ? 'navbar__toggle--open' : ''}`}
