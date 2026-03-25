@@ -19,24 +19,19 @@
 .footer__logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
 }
 
-.footer__logo-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light));
-  color: white;
-  border-radius: 8px;
-  font-size: 1.1rem;
+.footer__logo-raim {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
+  color: #ff3131;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
 }
 
 .footer__logo-text {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: white;
 }

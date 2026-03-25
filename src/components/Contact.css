@@ -44,9 +44,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f5f3ff, #e0e7ff);
-  color: var(--color-primary-light);
   border-radius: 10px;
+}
+
+.contact__method-icon.icon--blue {
+  background: linear-gradient(135deg, #eff6ff, #bfdbfe);
+  color: #2563eb;
+}
+
+.contact__method-icon.icon--emerald {
+  background: linear-gradient(135deg, #ecfdf5, #a7f3d0);
+  color: #059669;
+}
+
+.contact__method-icon.icon--linkedin {
+  background: linear-gradient(135deg, #eff6ff, #bfdbfe);
+  color: #0a66c2;
 }
 
 .contact__method-label {

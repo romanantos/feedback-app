@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container footer__inner">
         <div className="footer__brand">
           <div className="footer__logo">
-            <span className="footer__logo-icon">R</span>
-            <span className="footer__logo-text">RAIM Consulting Group</span>
+            <span className="footer__logo-raim">RAIM</span>
+            <span className="footer__logo-text">Consulting Group</span>
           </div>
           <p className="footer__tagline">
             AI-Native Transformation | Agentic AI Design &amp; Build | Procurement Intelligence

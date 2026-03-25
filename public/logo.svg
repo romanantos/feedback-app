@@ -1,4 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" fill="white" rx="8"/>
-  <text x="100" y="120" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="72" fill="#E8272C" letter-spacing="2">RAIM</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ff3131;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Layer_3">
+    <g>
+      <rect class="st1" x=".5" y=".5" width="299" height="299"/>
+      <path d="M299,1v298H1V1h298M300,0H0v300h300V0h0Z"/>
+    </g>
+  </g>
+  <g>
+    <path class="st0" d="M52.05,161.33h-10.24v20.07h-18.77v-75.55h30.33c18.1,0,29.48,10.68,29.48,27.95,0,11.12-4.74,19.32-12.99,23.85l14.31,23.74h-20.09l-12.04-20.07ZM52.24,122.69h-10.43v22.12h10.43c7.77,0,11.66-4.1,11.66-11.01s-3.89-11.12-11.66-11.12Z"/>
+    <path class="st0" d="M137.63,166.73h-28.06l-5.21,14.68h-19.15l29.29-75.55h18.48l29.38,75.55h-19.53l-5.21-14.68ZM132.14,150.97l-8.53-24.18-8.53,24.18h17.06Z"/>
+    <path class="st0" d="M167.68,105.86h18.77v75.55h-18.77v-75.55Z"/>
+    <path class="st0" d="M259.71,181.41l-.19-40.04-17.06,32.59h-8.34l-16.97-31.51v38.96h-17.35v-75.55h15.45l23.32,43.6,22.75-43.6h15.45l.19,75.55h-17.25Z"/>
+  </g>
 </svg>
