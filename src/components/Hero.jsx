@@ -39,6 +39,18 @@ export default function Hero() {
             <span className="hero__metric-value">AI-First</span>
             <span className="hero__metric-label">We Build With AI,<br/>Not Just Talk About It</span>
           </div>
+          <div className="hero__metric">
+            <span className="hero__metric-value">100+</span>
+            <span className="hero__metric-label">Negotiations Closed<br/>Successfully</span>
+          </div>
+          <div className="hero__metric">
+            <span className="hero__metric-value">Global</span>
+            <span className="hero__metric-label">Prague-Based,<br/>Worldwide Delivery</span>
+          </div>
+          <div className="hero__metric">
+            <span className="hero__metric-value">10x</span>
+            <span className="hero__metric-label">ROI on AI<br/>Investments</span>
+          </div>
         </div>
       </div>
     </section>

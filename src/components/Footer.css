@@ -39,7 +39,7 @@
 .footer__tagline {
   font-size: 0.9rem;
   color: #64748b !important;
-  max-width: 400px;
+  white-space: nowrap;
 }
 
 .footer__links {
@@ -78,6 +78,12 @@
   justify-content: space-between;
   padding-top: 32px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .footer__bottom p {

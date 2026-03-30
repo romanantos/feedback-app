@@ -1,29 +1,39 @@
-.about__content {
+.about__bio-section {
+  max-width: 720px;
+  margin: 0 auto 56px;
+}
+
+.about__bio-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about__team {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 64px;
-  align-items: start;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .about__profile {
   text-align: center;
-  position: sticky;
-  top: calc(var(--header-height) + 32px);
 }
 
 .about__avatar {
   width: 120px;
   height: 120px;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
   margin: 0 auto 20px;
-  color: white;
-  font-size: 2rem;
-  font-weight: 700;
   box-shadow: 0 8px 24px rgba(79, 70, 229, 0.3);
+}
+
+.about__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about__profile h3 {
@@ -33,6 +43,13 @@
 
 .about__role {
   font-size: 0.9rem;
+  color: var(--color-text-light);
+  margin-bottom: 12px;
+}
+
+.about__desc {
+  font-size: 0.9rem;
+  line-height: 1.6;
   color: var(--color-text-light);
   margin-bottom: 16px;
 }
@@ -62,17 +79,12 @@
   border-color: transparent;
 }
 
-.about__bio p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  margin-bottom: 20px;
-}
-
 .about__tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 28px;
+  justify-content: center;
 }
 
 .about__tags span {
@@ -86,12 +98,8 @@
 }
 
 @media (max-width: 768px) {
-  .about__content {
+  .about__team {
     grid-template-columns: 1fr;
     gap: 40px;
-  }
-
-  .about__profile {
-    position: static;
   }
 }

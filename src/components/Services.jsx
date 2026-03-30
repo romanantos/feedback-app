@@ -1,6 +1,6 @@
 import './Services.css'
 
-const services = [
+const aiNativeServices = [
   {
     icon: (
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -40,6 +40,72 @@ const services = [
   },
 ]
 
+const enterpriseServices = [
+  {
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+        <path d="M16 7V5a4 4 0 00-8 0v2"/>
+        <line x1="12" y1="11" x2="12" y2="17"/>
+      </svg>
+    ),
+    colorClass: 'icon--teal',
+    title: 'Enterprise Experience',
+    description: '21+ years operating inside global enterprises like DHL across 220+ countries. We understand the complexity of large-scale organizations — governance, compliance, cross-functional alignment, and how to get things done.',
+    bullets: ['Global operations & governance', 'Cross-functional program delivery', 'Change management at scale'],
+  },
+  {
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/>
+        <circle cx="9" cy="7" r="4"/>
+        <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+        <path d="M16 3.13a4 4 0 010 7.75"/>
+      </svg>
+    ),
+    colorClass: 'icon--indigo',
+    title: 'Negotiation Experience',
+    description: 'Decades of high-stakes negotiation across global enterprises — from multi-million dollar supplier contracts to complex cross-border deals. We bring battle-tested strategies to every engagement.',
+    bullets: ['Enterprise supplier negotiations', 'Contract structuring & optimization', 'Stakeholder alignment & deal strategy'],
+  },
+  {
+    icon: (
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/>
+        <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+      </svg>
+    ),
+    colorClass: 'icon--rose',
+    title: 'Negotiation Training',
+    description: 'Equip your teams with proven negotiation frameworks and techniques drawn from real-world enterprise deals. Practical, hands-on training that delivers immediate results at the negotiation table.',
+    bullets: ['Customized training programs', 'Real-world case simulations', 'Team capability building'],
+  },
+]
+
+function ServiceGrid({ services }) {
+  return (
+    <div className="services__grid">
+      {services.map((service, i) => (
+        <div className="service-card" key={i}>
+          <div className={`service-card__icon ${service.colorClass}`}>{service.icon}</div>
+          <h3 className="service-card__title">{service.title}</h3>
+          <p className="service-card__desc">{service.description}</p>
+          <ul className="service-card__list">
+            {service.bullets.map((b, j) => (
+              <li key={j}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M3 8l3 3 7-7" stroke="var(--color-success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                {b}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export default function Services() {
   return (
     <section className="section section-alt" id="services">
@@ -52,25 +118,16 @@ export default function Services() {
             to deliver measurable results — not slide decks.
           </p>
         </div>
-        <div className="services__grid">
-          {services.map((service, i) => (
-            <div className="service-card" key={i}>
-              <div className={`service-card__icon ${service.colorClass}`}>{service.icon}</div>
-              <h3 className="service-card__title">{service.title}</h3>
-              <p className="service-card__desc">{service.description}</p>
-              <ul className="service-card__list">
-                {service.bullets.map((b, j) => (
-                  <li key={j}>
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M3 8l3 3 7-7" stroke="var(--color-success)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                    {b}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+        <ServiceGrid services={aiNativeServices} />
+
+        <div className="section-header services__second-pillar">
+          <h2>Three Pillars of Corporate-Native Consulting</h2>
+          <p>
+            Decades of hands-on enterprise experience — negotiation, procurement,
+            and global operations expertise that drives real business outcomes.
+          </p>
         </div>
+        <ServiceGrid services={enterpriseServices} />
       </div>
     </section>
   )

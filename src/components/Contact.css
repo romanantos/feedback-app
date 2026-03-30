@@ -52,6 +52,11 @@
   color: #2563eb;
 }
 
+.contact__method-icon.icon--amber {
+  background: linear-gradient(135deg, #fffbeb, #fde68a);
+  color: #d97706;
+}
+
 .contact__method-icon.icon--emerald {
   background: linear-gradient(135deg, #ecfdf5, #a7f3d0);
   color: #059669;

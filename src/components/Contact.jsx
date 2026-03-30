@@ -14,7 +14,7 @@ export default function Contact() {
             </p>
             <div className="contact__methods">
               <a href="mailto:roman.antos@raimconsulting.com" className="contact__method">
-                <div className="contact__method-icon icon--blue">
+                <div className="contact__method-icon icon--amber">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <rect x="2" y="4" width="20" height="16" rx="2"/>
                     <path d="M22 7l-10 7L2 7"/>
@@ -25,7 +25,7 @@ export default function Contact() {
                   <span className="contact__method-value">roman.antos@raimconsulting.com</span>
                 </div>
               </a>
-              <a href="mailto:linkedin@raimconsulting.com" className="contact__method">
+              <a href="mailto:letsdiscuss@raimconsulting.com" className="contact__method">
                 <div className="contact__method-icon icon--emerald">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className="contact__method-label">General Inquiries</span>
-                  <span className="contact__method-value">linkedin@raimconsulting.com</span>
+                  <span className="contact__method-value">letsdiscuss@raimconsulting.com</span>
                 </div>
               </a>
               <a

@@ -1,8 +1,12 @@
 .results__showcase {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  gap: 32px;
   align-items: start;
+}
+
+.results__values {
+  grid-column: 1 / -1;
 }
 
 .results__card {

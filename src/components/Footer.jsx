@@ -28,7 +28,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer__bottom">
-          <p>&copy; {new Date().getFullYear()} RAIM Consulting Group s.r.o. All rights reserved.</p>
+          <div className="footer__copyright">
+            <p>&copy; {new Date().getFullYear()} RAIM Consulting Group. All rights reserved.</p>
+
+          </div>
           <p>Prague, Czech Republic</p>
         </div>
       </div>
