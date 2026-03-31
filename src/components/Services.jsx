@@ -120,7 +120,7 @@ export default function Services() {
         </div>
         <ServiceGrid services={aiNativeServices} />
 
-        <div className="section-header services__second-pillar">
+        <div className="section-header services__second-pillar" id="enterprise-services">
           <h2>Three Pillars of Enterprise-Native Consulting</h2>
           <p>
             25+ years leading global enterprise initiatives — projects, programs,

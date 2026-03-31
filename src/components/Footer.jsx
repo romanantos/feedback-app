@@ -11,6 +11,8 @@ export default function Footer() {
           </div>
           <p className="footer__tagline">
             AI-Native Transformation | Agentic AI Design &amp; Build | AI-Augmented Operations
+            <br/>
+            Enterprise Experience | Negotiation Experience | Negotiation Training
           </p>
         </div>
         <div className="footer__links">
@@ -22,14 +24,14 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h4>Enterprise-Native</h4>
-            <a href="#services">Enterprise Experience</a>
-            <a href="#services">Negotiation Experience</a>
-            <a href="#services">Negotiation Training</a>
+            <a href="#enterprise-services">Enterprise Experience</a>
+            <a href="#enterprise-services">Negotiation Experience</a>
+            <a href="#enterprise-services">Negotiation Training</a>
           </div>
           <div className="footer__col">
             <h4>Company</h4>
             <a href="#about">About</a>
-            <a href="#approach">Our Approach</a>
+            <a href="#approach">Approach</a>
             <a href="#contact">Contact</a>
           </div>
         </div>

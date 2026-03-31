@@ -81,6 +81,7 @@
 .services__second-pillar {
   margin-top: 64px;
   max-width: none;
+  scroll-margin-top: 80px;
 }
 
 .services__second-pillar h2 {

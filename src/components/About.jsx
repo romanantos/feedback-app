@@ -10,15 +10,15 @@ export default function About() {
         </div>
         <div className="about__bio-section">
           <p>
-            RAIM Consulting Group was founded in 2025 by Roman Antos, bringing
-            over two decades of enterprise procurement expertise from global
-            organizations including DHL, combined with deep hands-on experience
+            RAIM Consulting Group was founded in 2025, bringing
+            over two and a half decades of enterprise expertise from global
+            organizations including DHL, Accenture, CSC combined with deep hands-on experience
             in AI systems design and deployment.
           </p>
           <p>
             We address a fundamental gap in the market: most consulting firms
             either understand AI technology or understand business operations,
-            but rarely both. RAIM bridges that gap — we speak the language of
+            but rarely both. RAIM Consulting Group bridges that gap — we speak the language of
             the boardroom and the codebase.
           </p>
           <p>
@@ -29,10 +29,11 @@ export default function About() {
           </p>
           <div className="about__tags">
             <span>AI-Native Transformation</span>
-            <span>Agentic AI</span>
-            <span>Procurement Intelligence</span>
-            <span>Enterprise Strategy</span>
-            <span>Workflow Automation</span>
+            <span>Agentic AI Design & Build</span>
+            <span>AI-Augmented Operations</span>
+            <span>Enterprise Experience</span>
+            <span>Negotiation Experience</span>
+            <span>Negotiation Training</span>
             <span>IT Infrastructure</span>
             <span>Data Centers</span>
             <span>Prague & Global</span>
@@ -46,8 +47,9 @@ export default function About() {
             <h3>Roman Antos</h3>
             <p className="about__role">Managing Partner</p>
             <p className="about__desc">
-              22+ years in enterprise procurement at DHL and global organizations.
-              Deep hands-on experience in AI systems design and deployment.
+              22+ years delivering enterprise-scale programs across 220+ countries.
+              Expert in strategic sourcing, AI systems design and deployment, and bridging
+              business strategy with technology to drive measurable outcomes.
             </p>
             <div className="about__links">
               <a
@@ -76,8 +78,9 @@ export default function About() {
             <h3>Filip Gröschl</h3>
             <p className="about__role">Managing Partner</p>
             <p className="about__desc">
-              25+ years leading IT infrastructure and Data Center sourcing at DHL across 220+ countries.
-              Expert in strategic IT procurement, cloud services, and business-technology alignment.
+              25+ years leading IT infrastructure, data center, and cloud strategies across
+              220+ countries. Expert in strategic sourcing, business-technology alignment,
+              and enterprise-scale program delivery.
             </p>
             <div className="about__links">
               <a
