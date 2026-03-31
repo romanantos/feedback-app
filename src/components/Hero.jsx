@@ -28,8 +28,8 @@ export default function Hero() {
         </div>
         <div className="hero__metrics">
           <div className="hero__metric">
-            <span className="hero__metric-value">21+</span>
-            <span className="hero__metric-label">Years Enterprise<br/>Procurement</span>
+            <span className="hero__metric-value">25+</span>
+            <span className="hero__metric-label">Years Enterprise<br/>Experience</span>
           </div>
           <div className="hero__metric">
             <span className="hero__metric-value">20%</span>

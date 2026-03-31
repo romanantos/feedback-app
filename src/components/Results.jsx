@@ -115,7 +115,20 @@ export default function Results() {
               </div>
               <div>
                 <h3>Cross-Industry Pattern Recognition</h3>
-                <p>21+ years across logistics, manufacturing, and global supply chains means we spot opportunities others miss — and avoid pitfalls they repeat.</p>
+                <p>25+ years across information technologies, consulting, logistics, manufacturing, and global supply chains means we spot opportunities others miss — and avoid pitfalls they repeat.</p>
+              </div>
+            </div>
+            <div className="results__value">
+              <div className="results__value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9 18l6-6-6-6"/>
+                  <path d="M15 18l6-6-6-6"/>
+                  <path d="M3 18l6-6-6-6"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Innovation and Development</h3>
+                <p>We continuously push the boundaries of what's possible — building custom AI solutions, experimenting with emerging technologies, and turning bold ideas into production-ready tools.</p>
               </div>
             </div>
           </div>

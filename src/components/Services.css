@@ -80,6 +80,11 @@
 
 .services__second-pillar {
   margin-top: 64px;
+  max-width: none;
+}
+
+.services__second-pillar h2 {
+  white-space: nowrap;
 }
 
 .service-card__list li {

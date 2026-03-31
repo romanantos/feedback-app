@@ -6,7 +6,7 @@ export default function About() {
       <div className="container">
         <div className="section-header">
           <span className="section-label">About</span>
-          <h2>Built on 21 Years of Enterprise Experience</h2>
+          <h2>Built on 25+ Years of Enterprise Experience</h2>
         </div>
         <div className="about__bio-section">
           <p>
@@ -33,6 +33,8 @@ export default function About() {
             <span>Procurement Intelligence</span>
             <span>Enterprise Strategy</span>
             <span>Workflow Automation</span>
+            <span>IT Infrastructure</span>
+            <span>Data Centers</span>
             <span>Prague & Global</span>
           </div>
         </div>
@@ -44,7 +46,7 @@ export default function About() {
             <h3>Roman Antos</h3>
             <p className="about__role">Managing Partner</p>
             <p className="about__desc">
-              21+ years in enterprise procurement at DHL and global organizations.
+              22+ years in enterprise procurement at DHL and global organizations.
               Deep hands-on experience in AI systems design and deployment.
             </p>
             <div className="about__links">
@@ -74,7 +76,7 @@ export default function About() {
             <h3>Filip Gröschl</h3>
             <p className="about__role">Managing Partner</p>
             <p className="about__desc">
-              21+ years leading IT infrastructure sourcing at DHL across 220+ countries.
+              25+ years leading IT infrastructure and Data Center sourcing at DHL across 220+ countries.
               Expert in strategic IT procurement, cloud services, and business-technology alignment.
             </p>
             <div className="about__links">

@@ -23,8 +23,8 @@ const aiNativeServices = [
     ),
     colorClass: 'icon--emerald',
     title: 'Agentic AI Design & Build',
-    description: 'Deploy autonomous AI agents that actually work in production. From procurement automation to back-office workflows — built, tested, and shipped.',
-    bullets: ['Procurement automation agents', 'Negotiation intelligence', 'Back-office workflow automation'],
+    description: 'Design and deploy autonomous AI agents that actually work in production. From intelligent workflows to decision-support systems — architected, built, and shipped.',
+    bullets: ['Custom AI agent development', 'Workflow automation & orchestration', 'Production-grade deployment & monitoring'],
   },
   {
     icon: (
@@ -34,9 +34,9 @@ const aiNativeServices = [
       </svg>
     ),
     colorClass: 'icon--orange',
-    title: 'AI-Augmented Procurement',
-    description: '21 years of enterprise procurement expertise — now amplified by AI. We bring deep domain knowledge from global supply chains combined with cutting-edge AI technology.',
-    bullets: ['Spend analytics & optimization', 'Supplier negotiation intelligence', 'Procurement process automation'],
+    title: 'AI-Augmented Operations',
+    description: 'Embed AI directly into your day-to-day enterprise operations. We identify high-impact areas where AI can eliminate bottlenecks, reduce manual effort, and accelerate decision-making across the business.',
+    bullets: ['Operational workflow optimization', 'Intelligent process automation', 'Data-driven decision support'],
   },
 ]
 
@@ -51,8 +51,8 @@ const enterpriseServices = [
     ),
     colorClass: 'icon--teal',
     title: 'Enterprise Experience',
-    description: '21+ years operating inside global enterprises like DHL across 220+ countries. We understand the complexity of large-scale organizations — governance, compliance, cross-functional alignment, and how to get things done.',
-    bullets: ['Global operations & governance', 'Cross-functional program delivery', 'Change management at scale'],
+    description: '25+ years operating inside global enterprises like DHL, Accenture, CSC across 220+ countries. We understand the complexity of large-scale organizations — governance, compliance, cross-functional alignment, and how to get things done.',
+    bullets: ['Multi-continent program & project management', 'Strategic vendor & stakeholder partnerships', 'Organizational transformation at scale'],
   },
   {
     icon: (
@@ -66,7 +66,7 @@ const enterpriseServices = [
     colorClass: 'icon--indigo',
     title: 'Negotiation Experience',
     description: 'Decades of high-stakes negotiation across global enterprises — from multi-million dollar supplier contracts to complex cross-border deals. We bring battle-tested strategies to every engagement.',
-    bullets: ['Enterprise supplier negotiations', 'Contract structuring & optimization', 'Stakeholder alignment & deal strategy'],
+    bullets: ['Complex multi-party negotiations', 'Commercial strategy & deal architecture', 'Long-term supplier relationship management'],
   },
   {
     icon: (
@@ -78,7 +78,7 @@ const enterpriseServices = [
     colorClass: 'icon--rose',
     title: 'Negotiation Training',
     description: 'Equip your teams with proven negotiation frameworks and techniques drawn from real-world enterprise deals. Practical, hands-on training that delivers immediate results at the negotiation table.',
-    bullets: ['Customized training programs', 'Real-world case simulations', 'Team capability building'],
+    bullets: ['Proven negotiation frameworks & playbooks', 'Behavioral & tactical technique training', 'Post-training coaching & reinforcement'],
   },
 ]
 
@@ -121,10 +121,11 @@ export default function Services() {
         <ServiceGrid services={aiNativeServices} />
 
         <div className="section-header services__second-pillar">
-          <h2>Three Pillars of Corporate-Native Consulting</h2>
+          <h2>Three Pillars of Enterprise-Native Consulting</h2>
           <p>
-            Decades of hands-on enterprise experience — negotiation, procurement,
-            and global operations expertise that drives real business outcomes.
+            25+ years leading global enterprise initiatives — projects, programs,
+            and strategic negotiations — bringing executives, partners, and stakeholders
+            together to deliver measurable outcomes at nine-digit scale.
           </p>
         </div>
         <ServiceGrid services={enterpriseServices} />

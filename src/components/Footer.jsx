@@ -10,15 +10,21 @@ export default function Footer() {
             <span className="footer__logo-text">Consulting Group</span>
           </div>
           <p className="footer__tagline">
-            AI-Native Transformation | Agentic AI Design &amp; Build | Procurement Intelligence
+            AI-Native Transformation | Agentic AI Design &amp; Build | AI-Augmented Operations
           </p>
         </div>
         <div className="footer__links">
           <div className="footer__col">
-            <h4>Services</h4>
+            <h4>AI-Native</h4>
             <a href="#services">AI-Native Transformation</a>
             <a href="#services">Agentic AI Design & Build</a>
-            <a href="#services">AI-Augmented Procurement</a>
+            <a href="#services">AI-Augmented Operations</a>
+          </div>
+          <div className="footer__col">
+            <h4>Enterprise-Native</h4>
+            <a href="#services">Enterprise Experience</a>
+            <a href="#services">Negotiation Experience</a>
+            <a href="#services">Negotiation Training</a>
           </div>
           <div className="footer__col">
             <h4>Company</h4>
