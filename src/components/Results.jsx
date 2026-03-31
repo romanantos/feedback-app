@@ -23,6 +23,16 @@ export default function Results() {
               Production results.
             </p>
           </div>
+          <div className="results__card results__card--featured">
+            <span className="results__card-label">Case Highlight</span>
+            <div className="results__card-stat">3x Faster</div>
+            <p className="results__card-title">Contract Negotiation Cycles</p>
+            <p className="results__card-desc">
+              Negotiation cycles reduced from 12 weeks to 4 using agentic AI
+              workflows for a Fortune 500 manufacturer. Speed without
+              sacrificing deal quality.
+            </p>
+          </div>
           <div className="results__values">
             <div className="results__value">
               <div className="results__value-icon">
@@ -58,6 +68,67 @@ export default function Results() {
               <div>
                 <h3>Production, Not PowerPoint</h3>
                 <p>We ship working systems. Every recommendation comes with a path to implementation.</p>
+              </div>
+            </div>
+            <div className="results__value">
+              <div className="results__value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Speed to Value</h3>
+                <p>From kickoff to production in weeks, not quarters. We eliminate the discovery-to-deployment gap that kills most AI initiatives.</p>
+              </div>
+            </div>
+            <div className="results__value">
+              <div className="results__value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Battle-Tested Frameworks</h3>
+                <p>Every methodology we use has been forged in real enterprise environments. No academic theory — only approaches proven under pressure.</p>
+              </div>
+            </div>
+            <div className="results__value">
+              <div className="results__value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                  <path d="M13.73 21a2 2 0 01-3.46 0"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Knowledge Transfer Built In</h3>
+                <p>We don't create dependency. Every engagement leaves your team stronger, with the skills and playbooks to sustain results independently.</p>
+              </div>
+            </div>
+            <div className="results__value">
+              <div className="results__value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="2" y1="12" x2="22" y2="12"/>
+                  <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Cross-Industry Pattern Recognition</h3>
+                <p>25+ years across information technologies, consulting, logistics, manufacturing, and global supply chains means we spot opportunities others miss — and avoid pitfalls they repeat.</p>
+              </div>
+            </div>
+            <div className="results__value">
+              <div className="results__value-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M9 18l6-6-6-6"/>
+                  <path d="M15 18l6-6-6-6"/>
+                  <path d="M3 18l6-6-6-6"/>
+                </svg>
+              </div>
+              <div>
+                <h3>Innovation and Development</h3>
+                <p>We continuously push the boundaries of what's possible — building custom AI solutions, experimenting with emerging technologies, and turning bold ideas into production-ready tools.</p>
               </div>
             </div>
           </div>
