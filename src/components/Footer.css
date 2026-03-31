@@ -94,6 +94,11 @@
 }
 
 @media (max-width: 768px) {
+  .footer__tagline {
+    white-space: normal;
+    font-size: 0.8rem;
+  }
+
   .footer__links {
     flex-direction: column;
     gap: 32px;

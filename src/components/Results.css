@@ -97,3 +97,17 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 768px) {
+  .results__card {
+    padding: 32px 24px;
+  }
+
+  .results__card-stat {
+    font-size: 3.5rem;
+  }
+
+  .results__values {
+    grid-template-columns: 1fr;
+  }
+}
