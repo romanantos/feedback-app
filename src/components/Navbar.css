@@ -116,14 +116,28 @@
     left: 0;
     right: 0;
     flex-direction: column;
+    align-items: center;
     background: white;
-    padding: 24px;
-    gap: 20px;
+    padding: 20px 24px;
+    gap: 16px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .navbar__links a {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
   }
 
   .navbar__links--open {
     display: flex;
+  }
+
+  .btn--nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
   }
 
   .navbar--scrolled .navbar__links {
