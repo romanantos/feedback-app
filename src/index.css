@@ -178,6 +178,7 @@ p {
 @media (max-width: 768px) {
   .section {
     padding: 64px 0;
+    scroll-margin-top: 0px;
   }
 
   .section-header {

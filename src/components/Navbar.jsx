@@ -16,7 +16,9 @@ export default function Navbar() {
     setMenuOpen(false)
     const el = document.getElementById(id)
     if (el) {
-      const top = el.getBoundingClientRect().top + window.scrollY
+      const isMobile = window.innerWidth <= 768
+      const offset = isMobile ? 16 : 0
+      const top = el.getBoundingClientRect().top + window.scrollY - offset
       window.scrollTo({ top, behavior: 'smooth' })
     }
   }
