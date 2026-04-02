@@ -83,7 +83,7 @@ p {
 
 .section {
   padding: 96px 0;
-  scroll-margin-top: var(--header-height);
+  scroll-margin-top: 0px;
 }
 
 .section-alt {
