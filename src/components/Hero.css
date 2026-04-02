@@ -120,6 +120,11 @@
 
   .hero__metric-value {
     font-size: 1.5rem;
-    min-width: 80px;
+    min-width: 100px;
+    text-align: right;
+  }
+
+  .hero__metric-label {
+    text-align: left;
   }
 }
