@@ -1,5 +1,16 @@
 import './Hero.css'
 
+function scrollTo(e, id) {
+  e.preventDefault()
+  const el = document.getElementById(id)
+  if (el) {
+    const isMobile = window.innerWidth <= 768
+    const offset = isMobile ? 16 : 0
+    const top = el.getBoundingClientRect().top + window.scrollY - offset
+    window.scrollTo({ top, behavior: 'smooth' })
+  }
+}
+
 export default function Hero() {
   return (
     <section className="hero" id="hero">
@@ -17,13 +28,13 @@ export default function Hero() {
             strategy and measurable results.
           </p>
           <div className="hero__actions">
-            <a href="#contact" className="btn btn-primary">
+            <a href="#contact" className="btn btn-primary" onClick={(e) => scrollTo(e, 'contact')}>
               Start a Conversation
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </a>
-            <a href="#services" className="btn btn-outline">Our Services</a>
+            <a href="#services" className="btn btn-outline" onClick={(e) => scrollTo(e, 'services')}>Our Services</a>
           </div>
         </div>
         <div className="hero__metrics">
